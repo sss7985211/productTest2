@@ -22,8 +22,10 @@
     a {    
         font-size: 16px;  
         color: lighten($hd_text_color, 35%);
+        text-decoration:none;
         &:hover{
             color: lighten($hd_text_color, 70%);
+
             border-bottom: 2px solid lighten($hd_text_color, 70%);         
           }
     }
@@ -50,6 +52,12 @@
     width: auto;
     height: 80px;
     background-color: $primary_color;
+    a{
+        text-decoration:none;
+        font-size: 1.5em;
+        color:$ft_text_color;
+        
+    }
     
 }
 

@@ -78,7 +78,7 @@
   top: 0;
   left: 0;
   padding: 15px 20px;
-  background-color: #62AAA1;
+  background-color: #2F3E46;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,12 +100,13 @@
 
 .header a {
   font-size: 16px;
-  color: #7b9390;
+  color: white;
+  text-decoration: none;
 }
 
 .header a:hover {
-  color: #dde3e2;
-  border-bottom: 2px solid #dde3e2;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .header .hd_logo {
@@ -127,7 +128,13 @@
 .footer {
   width: auto;
   height: 80px;
-  background-color: #62AAA1;
+  background-color: #2F3E46;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #84A98C;
 }
 
 .l-list {

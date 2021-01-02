@@ -1,6 +1,8 @@
-$primary_color:(#62AAA1);
-$hd_text_color:(#293231);
-
+$primary_color:(#2F3E46);
+$hd_text_color:(#CAD2C5);
+$ft_text_color:(#84A98C); 
+$content_color:(#52796F);
+$main_color:(#354F52);
 .header {
     @include mobilephone {
         font-size: 8px;
