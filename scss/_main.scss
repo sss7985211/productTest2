@@ -1,8 +1,9 @@
 $primary_color:(#2F3E46);
 $hd_text_color:(#CAD2C5);
-$ft_text_color:(#84A98C); 
+$ft_text_color:(#84A98C);
 $content_color:(#52796F);
 $main_color:(#354F52);
+
 .header {
     @include mobilephone {
         font-size: 8px;
@@ -57,4 +58,21 @@ $main_color:(#354F52);
         }
 
     }
+}
+
+.carousel_container {
+    width: 42%;
+    height: auto;
+    // overflow: hidden;
+    border:5px solid black;
+
+
+    .carousel_slide {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        
+
+    }
+
 }
